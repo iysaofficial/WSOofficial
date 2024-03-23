@@ -11,12 +11,12 @@ function Organized() {
                             <div className="owl-carousel owl-2">
                                 <div className="media ">
                                     <a className="text-center mx-auto">
-                                        <img src="./assets/logo/LogoIYSA.WebP" alt="Image" className="img-fluid" />
+                                        <img src="/assets/logo/LogoIYSA.WebP" alt="Image" className="img-fluid" />
                                     </a>
                                 </div>
                                 {/* <div className="media">
                                     <a className="text-center mx-auto">
-                                        <img src="./assets/logo/LOGOAKTUARIA.png" alt="Image" className="img-fluid"/>
+                                        <img src="/assets/logo/LOGOAKTUARIA.png" alt="Image" className="img-fluid"/>
                                     </a>
                                 </div> */}
                             </div>
@@ -24,7 +24,7 @@ function Organized() {
                             <div className="owl-carousel owl-2">
                                 <div className="media ">
                                     <a className="text-center mx-auto">
-                                        <img src="./assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
+                                        <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
                                     </a>
                                 </div> 
                             </div>
