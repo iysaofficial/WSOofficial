@@ -10,12 +10,12 @@ function Organized() {
                             <h2 className="py-5 ">ORGANIZED BY :</h2>
                             <div className="owl-carousel owl-2">
                                 <div className="media ">
-                                    <a className="text-center mx-auto">
+                                    <a className="mx-auto">
                                         <img src="/assets/img/space.png" alt="Image" className="img-fluid" />
                                     </a>
                                 </div>
                                 <div className="media">
-                                    <a className="text-center mx-auto">
+                                    <a className="mx-auto">
                                         <img src="/assets/logo/LOGOAKTUARIA.png" alt="Image" className="img-fluid"/>
                                     </a>
                                 </div>
@@ -23,7 +23,7 @@ function Organized() {
                             <h2 className="py-5 ">SUPPORTED BY :</h2>
                             <div className="owl-carousel owl-2">
                                 <div className="media ">
-                                    <a className="text-center mx-auto">
+                                    <a className="mx-auto">
                                         <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
                                     </a>
                                 </div> 
