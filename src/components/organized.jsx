@@ -11,14 +11,14 @@ function Organized() {
                             <div className="owl-carousel owl-2">
                                 <div className="media ">
                                     <a className="text-center mx-auto">
-                                        <img src="/assets/logo/LogoIYSA.WebP" alt="Image" className="img-fluid" />
+                                        <img src="/assets/img/space.png" alt="Image" className="img-fluid" />
                                     </a>
                                 </div>
-                                {/* <div className="media">
+                                <div className="media">
                                     <a className="text-center mx-auto">
                                         <img src="/assets/logo/LOGOAKTUARIA.png" alt="Image" className="img-fluid"/>
                                     </a>
-                                </div> */}
+                                </div>
                             </div>
                             <h2 className="py-5 ">SUPPORTED BY :</h2>
                             <div className="owl-carousel owl-2">
