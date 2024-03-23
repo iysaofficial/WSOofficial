@@ -2,7 +2,7 @@ function Organized() {
   
     return (
       <>
-      <section className="organized-section" id="organized">
+      {/* <section className="organized-section" id="organized">
             <div className="container">
                 <div className="content">
                     <div className="site-section bg-left-half mb-5">
@@ -32,7 +32,22 @@ function Organized() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
+        <section className="organized-section">
+        <div className="site-section bg-left-half mb-5">
+            <div className="container owl-2-style">
+                <h1 className=" py-5 ">Organized By :</h1>
+                <div className="owl-carousel owl-2">
+                    <div className="content-image">
+                        <img src="./assets/logo/LogoIYSA.WebP" alt="Image" className="img-fluid" />
+                    </div>
+                    {/* <div className="content-image">
+                        <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
+                    </div> */}
+                </div>
+            </div>
+        </div>
+      </section>
       </>
     )
   }
