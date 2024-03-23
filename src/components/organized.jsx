@@ -11,7 +11,7 @@ function Organized() {
                             <div className="owl-carousel owl-2">
                                 <div className="media ">
                                     <a className="mx-auto">
-                                        <img src="/assets/img/space.png" alt="Image" className="img-fluid" />
+                                        <img src="" alt="Image" className="img-fluid" />
                                     </a>
                                 </div>
                                 <div className="media">
@@ -33,21 +33,17 @@ function Organized() {
                 </div>
             </div>
         </section> */}
-        <section className="organized-section">
-        <div className="site-section bg-left-half mb-5">
-            <div className="container owl-2-style">
-                <h1 className=" py-5 ">Organized By :</h1>
-                <div className="owl-carousel owl-2">
-                        <img src="/assets/logo/WSO2.jpeg" alt="Image" className="img-fluid" />
-                        <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
-
-                    {/* <div className="content-image">
-                        <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
-                    </div> */}
+        <section id="organized" className="organized-section">
+            <div className="image-content row text-center mx-auto">
+                <div className="text col-12 col-lg-3 ">
+                    <h2>ORGANIZED BY :</h2>
+                </div>
+                <div className="image col-12 col-lg-9 text-lg-start">
+                    <img src="/assets/logo/LogoIYSA.WebP" className="img-fluid m-3 m-lg-5" alt=".." />
+                    <img src="/assets/logo/LOGOAKTUARIA.png" className="img-fluid m-3 m-lg-5" alt="" />
                 </div>
             </div>
-        </div>
-      </section>
+        </section>
       </>
     )
   }

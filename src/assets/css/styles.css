@@ -290,7 +290,6 @@ footer {
 }
 .mainhero-section .wrapper h4{
   border-radius: 10px;
-  padding: 10px;
   font-weight: 600;
   font-size: clamp(14px, 4vw, 22px);
 }
@@ -485,84 +484,21 @@ footer {
 /* Organized Start */ /* Organized Start */
 .organized-section {
   padding: 100px 25px 75px 25px  ;
-  /* background-image: url(../../../public/assets/img/web.jpg); */
+  background: var(--warna-primary);
   background-position: center;
   background-size: cover;
+  color: var(--warna-tulisan);
 }
 
-/* .bg-left-half {
-  position: relative; }
-  .bg-left-half:before {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    z-index: -1;
-    content: "";
-    left: 0;
-    top: 0;
-    background-color: #f8f9fa; } */
-
-/* .media a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-.media img {
-  margin-bottom: 20px;
-  max-width: 80%;
+.organized-section .image-content img{
+  max-width: 100%;
+  height: 150px !important;
+  height: auto;
+  background: var(--warna-tulisan);
   border-radius: 10px;
+  padding: 0.7rem;
+  transition: transform 0.6s ease-in-out; /* Efek transisi */
 }
-
-.media h3 {
-  font-size: 18px;
-  font-weight: 900 !important; }
-  .media h3 a {
-    color: #6c757d; }
-
-    .organized-section .bg-left-half:before {
-      position: absolute;
-      width: 50%;
-      height: 100%;
-      z-index: -1;
-      content: "";
-      left: 0;
-      top: 0;
-   }
-  
-  .organized-section .content-image img {
-    margin-bottom: 20px; 
-    border-radius: 10px;
-  }
-  
-  .organized-section .content-image h3 {
-    font-size: 18px;
-    font-weight: 900 !important; }
-    .organized-section .content-image h3 a {
-      color: var(--warna-tulisan2); }
-  
-  .organized-section .owl-2-style .owl-nav {
-    display: none; }
-  
-  .organized-section .owl-2-style .owl-dots {
-    text-align: center;
-    position: relative;
-    bottom: -30px; }
-    .organized-section .owl-2-style .owl-dots .owl-dot {
-      display: inline-block; }
-      .organized-section .owl-2-style .owl-dots .owl-dot span {
-        display: inline-block;
-        width: 15px;
-        height: 3px;
-        border-radius: 0px;
-        background: #cccccc;
-        -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
-        -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
-        transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
-        margin: 3px; }
-      .organized-section .owl-2-style .owl-dots .owl-dot.active span {
-        background: #007bff; }
-      .organized-section .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
-        outline: none; }
 
 /* Organized End */ /* Organized End */
 
