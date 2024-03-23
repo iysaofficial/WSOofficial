@@ -38,9 +38,9 @@ function Organized() {
             <div className="container owl-2-style">
                 <h1 className=" py-5 ">Organized By :</h1>
                 <div className="owl-carousel owl-2">
-                    <div className="content-image">
                         <img src="/assets/logo/WSO2.jpeg" alt="Image" className="img-fluid" />
-                    </div>
+                        <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
+
                     {/* <div className="content-image">
                         <img src="/assets/logo/MIICA.jpeg" alt="Image" className="img-fluid" />
                     </div> */}
