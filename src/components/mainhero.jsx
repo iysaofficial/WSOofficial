@@ -9,7 +9,8 @@ function MainHero() {
                         <div class="content-text">
                             <h4 class="mb-3">Gain valuable experience in this first-year World Science Olympiad event! Be a part of history and make a mark in this proud scientific competition. Get ready to explore your hidden potential, challenge yourself, and achieve greatness.</h4>
                             <h4> Join us in this first year of the World Science Olympiad and together we begin the journey to unforgettable success!</h4>
-                            <a class="btn btn-outline-light btn-lg " role="button" href="https://registrasi-wso.vercel.app/">Registration</a>
+                            {/* <a class="btn btn-outline-light btn-lg " role="button" href="https://registrasi-wso.vercel.app/">Registration</a> */}
+                            <a class="btn btn-outline-light btn-lg " role="button" href="#">Coming Soon 2024</a> 
                         </div>
                         <div>
                         </div>
