@@ -15,7 +15,7 @@ function Category() {
                             <i className="fas fa-calculator fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 className="my-3">Mathematics</h4>
-                        <a>for elementary, junior high, senior high and university education levels</a>
+                        <a>for elementary, junior high, senior high and university levels</a>
                     </div>
 
                     <div className="cat-item col-md-4 col-lg-3 mb-lg-0 mb-3">
@@ -25,7 +25,7 @@ function Category() {
 
                         </span>
                         <h4 className="my-3">Physics</h4>
-                        <a>for senior high school and university education levels</a>
+                        <a>for senior high school and university levels</a>
                     </div>
 
                     <div className="cat-item col-md-4 col-lg-3 mb-lg-0 mb-3">
@@ -35,7 +35,7 @@ function Category() {
                             
                         </span>
                         <h4 className="my-3">Chemistry</h4>
-                        <a>for senior high school and university education levels</a>
+                        <a>for senior high school and university levels</a>
                     </div>
 
                     <div className="cat-item col-md-4 col-lg-3 mb-lg-0 mb-3">
@@ -44,7 +44,7 @@ function Category() {
                             <i className="fas fa-dna fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 className="my-3">Biology</h4>
-                        <a>for senior high school and university education levels</a>
+                        <a>for senior high school and university levels</a>
                     </div>
                 </div>
             </div>

@@ -541,7 +541,7 @@ footer {
   color: var(--warna-tulisan);
   background: var(--warna-sekunder);
   filter: drop-shadow(-15px 15px 5px var(--warna-tulisan2));
-  height: 210px;
+  height: 300px;
 }
 /* CRITERIA End *//* CRITERIA End */
 

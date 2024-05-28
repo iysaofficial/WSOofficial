@@ -13,14 +13,14 @@ function Mechanism() {
                 <div className="items">
                     <h1 className="text-center">Competition Mechanism</h1>
                     <div className="participant col-10 mb-5 mx-auto">
-                        <h4 className="text-center">Online Mechanism</h4>
+                        <h4 className="text-center">Offline Mechanism</h4>
                         <ul>
-                            <li>This competition is a 2-person team competition held online.</li>
-                            <li>All teams will participate in the first round which is held online and in real time following the western Indonesian time zone or WIB (Jakarta Time).</li>
-                            <li>The competition is divided into 2 rounds.</li>
+                            <li>This activity is carried out offline Competition</li>
+                            <li>The syllabus for each level will be sent to the team leader's email after payment closes.</li>
+                            <li>Each winner will receive a medal and certificate.</li>
                         </ul>
                     </div>
-                    <div className="assessment row">
+                    {/* <div className="assessment row">
                         <div className="round1 mb-5 me-lg-5 col-12 col-lg-5 mx-auto">
                             <h4 className="text-center">Round 1</h4>
                             <ul>
@@ -43,7 +43,7 @@ function Mechanism() {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
