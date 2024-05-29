@@ -541,7 +541,19 @@ footer {
   color: var(--warna-tulisan);
   background: var(--warna-sekunder);
   filter: drop-shadow(-15px 15px 5px var(--warna-tulisan2));
-  height: 300px;
+  height: 400px;
+}
+
+@media (max-width:400px){
+  .criteria-section .items .assessment{
+    height: 550px;
+  }
+}
+
+@media (max-width:300px){
+  .criteria-section .items .assessment{
+    height: 650px;
+  }
 }
 /* CRITERIA End *//* CRITERIA End */
 
