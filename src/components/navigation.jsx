@@ -1,62 +1,93 @@
+import React, { useEffect } from 'react';
+
 import "../assets/css/styles.css"
 
-function Navigation() {
-  
-    return (
-      <>
-    <section className="navigation-section">
-            {/* <!-- Navbar --> */}
-            <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
-                <div className="container">
-                    <a className="navbar-brand" href="#">
-                        <img src="./assets/logo/WSO2.jpeg" alt="logo" className="img-fluid"/>
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon fas fa-bars fa-2x"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <a className="nav-link d-flex flex-column text-center" aria-current="page" href="/">
-                                    <i className="fas fa-home fa-lg"></i>
-                                    <span className="small mt-3">Home</span>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link d-flex flex-column text-center" aria-current="page" href="https://drive.google.com/file/d/16AmJaF0sQommQ4T_MKJZL6wEtn-7RHiu/view?usp=sharing" target="_blank">
-                                    <i className="fas fa-book fa-lg"></i>
-                                    <span className="small mt-3">Guide Book</span>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link d-flex flex-column text-center" aria-current="page" href="/faq">
-                                    <i className="fas fa-question-circle fa-lg"></i>
-                                    <span className="small mt-3">Mechanism</span>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link d-flex flex-column text-center" aria-current="page" href="/contact">
-                                    <i className="fas fa-user-friends fa-lg"></i>
-                                    <span className="small mt-3">Contact</span>
-                                </a>
-                            </li>
-                            {/* <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle d-flex flex-column text-center" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i className="fas fa-th fa-lg"></i>
-                                    <span className="mt-3">List of Winners</span>
-                                </a>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="">2024</a></li>
-                                </ul>
-                            </li> */}
-                        </ul>
+
+
+const Navigation = () =>{
+    useEffect(() => {
+        // jquery for toggle dropdown menus
+        $(document).ready(function(){
+            // toggle sub-menus
+            $(".sub-btn").click(function(){
+                $(this).next(".sub-menu").slideToggle();
+            });
+            // toggle more-menus
+            $(".more-btn").click(function(){
+                $(this).next(".more-menu").slideToggle();
+            });
+        });
+        
+
+        // javascript for the responsive navigation menu
+        var menu = document.querySelector(".menu");
+        var menuBtn = document.querySelector(".menu-btn");
+        var closeBtn = document.querySelector(".close-btn");
+
+        menuBtn.addEventListener("click", () =>{
+            menu.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () =>{
+            menu.classList.remove("active");
+        });
+    }, []);
+    
+    return(
+        <>
+        <header>
+            <a href="/"><img className='logo-nav' src="./assets/logo/WSO2.png" alt="" /></a>
+            <div className='navigation'>
+                <ul className='menu'>
+                    <div className='close-btn'>
+
                     </div>
-                </div>
-            </nav>
-        {/* <!-- Navbar --> */}
-    </section>
-      </>
+                    <li className='menu-item'><a href="/">Home</a></li>
+                    {/* <li className='menu-item'><a href="#about">About</a></li> */}
+                    {/* <li className='menu-item'><a href="/#category-main-section">Category</a></li> */}
+                    {/* <li className='menu-item'><a href="#">FAQ</a></li> */}
+                    {/* <li className='menu-item'><a href="#category">Category</a></li> */}
+                    <li className='menu-item'><a href="https://drive.google.com/file/d/16AmJaF0sQommQ4T_MKJZL6wEtn-7RHiu/view?usp=sharing" target='_blank'>Guide Book</a></li>
+                    <li className='menu-item'><a href="/faq">Mechanism</a></li>
+                    <li className='menu-item'><a href="/contact">Contact</a></li>
+                    {/* <li className='menu-item'><a href="https://drive.google.com/drive/folders/1l_bCazIZmdtOSUjAuBAgXTg7YEBTixPY" target='_blank'>Certificate Supervisor</a></li> */}
+
+                    {/* <li className='menu-item'>
+                        <a className='sub-btn' href="#">Curation <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/drive/folders/1XiQPYXktmf47cO6g1sZ9HfprPE6A-5Ok" target='_blank'>IYEO 2023</a></li>
+                        </ul>
+                    </li>
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">List of Winner <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/file/d/1fguKg3dnfY3YTBwxsyx-3xq3l4VIlNta/view" target='_blank'>IYEO 2023</a></li>
+                        </ul>
+                    </li> */}
+                    {/* <li className='menu-item'>
+                        <a className='sub-btn' href="#">With Sub-dropdown <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="#">Sub Item 01</a></li>
+                            <li className='sub-item'><a href="#">Sub Item 02</a></li>
+                            <li className='sub-item'><a href="#">Sub Item 03</a></li>
+                            <li className='sub-item'><a href="#">Sub Item 04</a></li>
+                            <li className='sub-item more'>
+                                <a className='more-btn' href="#">More Items <i className='fas fa-angle-right'></i></a>
+                                <ul className='more-menu'>
+                                    <li className='more-item'><a href="#">More Item 01</a></li>
+                                    <li className='more-item'><a href="#">More Item 02</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li> */}
+                </ul>
+            </div>
+            <div className='menu-btn'>
+
+            </div>
+        </header>
+        </>
     )
-  }
-  
-  export default Navigation
+}
+
+export default Navigation

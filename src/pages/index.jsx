@@ -16,6 +16,9 @@ import Organized from "../components/organized";
 function Home() {
     return (
         <>
+        <br />
+        <br />
+        <br />
         <Navigation />
         <MainHero />
         <About />
