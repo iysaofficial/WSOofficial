@@ -21,7 +21,7 @@ function Criteria() {
                         <ul>                                
                             <li>Assessment is carried out using a points system.</li>
                             <li>Each multiple choice question has a value of 1 point.</li>
-                            <li>The teams that qualify for the second round are the best 60% of participants from each education level</li>
+                            {/* <li>The teams that qualify for the second round are the best 60% of participants from each education level</li> */}
                             <li>Olympiad participants will compete forrankings in the form of:
                                 <ul>
                                     <li>KKM more than 80: Will get a Gold Medal</li>

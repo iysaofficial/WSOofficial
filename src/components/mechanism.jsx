@@ -17,6 +17,12 @@ function Mechanism() {
                         <ul>
                             <li>This activity is carried out offline Competition</li>
                             <li>The syllabus for each level will be sent to the team leader's email after payment closes.</li>
+                            <li>During the second stage of the Olympiad
+                            session, each team will present a video
+                            presentation in which they solve a problem
+                            based on the questions provided by the
+                            committee.</li>
+                            <li>Each participant must bring 1 laptop</li>
                             <li>Each winner will receive a medal and certificate.</li>
                         </ul>
                     </div>
