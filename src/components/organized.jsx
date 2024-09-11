@@ -42,6 +42,7 @@ function Organized() {
                     <img src="/assets/logo/LogoIYSA.WebP" className="img-fluid m-3 m-lg-5" alt=".." />
                     <img src="/assets/logo/LOGOAKTUARIA.png" className="img-fluid m-3 m-lg-5" alt="" />
                     <img src="/assets/logo/undip.png" className="img-fluid m-3 m-lg-5" alt="" />
+                    <img src="/assets/logo/Logo-UNISMA.png" className="img-fluid m-3 m-lg-5" alt="" />
                     <img src="/assets/logo/buca.WebP" className="img-fluid m-3 m-lg-5" alt="" />
                 </div>
             </div>
