@@ -48,22 +48,39 @@ const Navigation = () =>{
                     {/* <li className='menu-item'><a href="#">FAQ</a></li> */}
                     {/* <li className='menu-item'><a href="#category">Category</a></li> */}
                     <li className='menu-item'><a href="https://drive.google.com/file/d/16AmJaF0sQommQ4T_MKJZL6wEtn-7RHiu/view?usp=sharing" target='_blank'>Guide Book</a></li>
-                    <li className='menu-item'><a href="/faq">Mechanism</a></li>
+                    {/* <li className='menu-item'><a href="/faq">Mechanism</a></li> */}
                     <li className='menu-item'><a href="/contact">Contact</a></li>
                     {/* <li className='menu-item'><a href="https://drive.google.com/drive/folders/1l_bCazIZmdtOSUjAuBAgXTg7YEBTixPY" target='_blank'>Certificate Supervisor</a></li> */}
-
-                    {/* <li className='menu-item'>
-                        <a className='sub-btn' href="#">Curation <i className='fas fa-angle-down'></i></a>
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">Media Coverage <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
-                            <li className='sub-item'><a href="https://drive.google.com/drive/folders/1XiQPYXktmf47cO6g1sZ9HfprPE6A-5Ok" target='_blank'>IYEO 2023</a></li>
+                            <li className='sub-item'><a href="https://drive.google.com/file/d/1FUjYSfp1CGCyzpu6avuQWQBynTsyCkbc/view?usp=sharing" target='_blank'>Press Release 2024</a></li>
                         </ul>
                     </li>
                     <li className='menu-item'>
                         <a className='sub-btn' href="#">List of Winner <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
-                            <li className='sub-item'><a href="https://drive.google.com/file/d/1fguKg3dnfY3YTBwxsyx-3xq3l4VIlNta/view" target='_blank'>IYEO 2023</a></li>
+                            <li className='sub-item'><a href="https://drive.google.com/file/d/1LFaZ3dprfTxcVfqfwKjSLpKMCb8caDS8/view?usp=sharing" target='_blank'>List of Winner 2024</a></li>
+                        </ul>
+                    </li>
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">Curation <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="#" target='_blank'>Curation 2024</a></li>
+                        </ul>
+                    </li>
+                    {/* <li className='menu-item'>
+                        <a className='sub-btn' href="#">Certificate Supervisor <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="#" target='_blank'>Certificate Supervisor 2024</a></li>
                         </ul>
                     </li> */}
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">Gallery <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/drive/folders/1QgWluiGAw1KCqUFbFs7j3c5l5kUPFb0l?usp=sharing" target='_blank'>2024</a></li>
+                        </ul>
+                    </li>
                     {/* <li className='menu-item'>
                         <a className='sub-btn' href="#">With Sub-dropdown <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
