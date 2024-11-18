@@ -7,7 +7,7 @@ import About from "../components/about";
 import Criteria from "../components/criteria";
 import Category from "../components/category";
 import Organized from "../components/organized";
-// import AfterMovie from "../components/aftermovie";
+import AfterMovie from "../components/aftermovie";
 // import Category from "../components/category";
 // import Organized from "../components/organized";
 // import About from "../components/about";
@@ -24,7 +24,7 @@ function Home() {
         <About />
         <Criteria />
         <Category/>
-        {/* <AfterMovie /> */}
+        <AfterMovie />
         <Organized />
         <Footer />
     </>
