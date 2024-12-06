@@ -66,7 +66,7 @@ const Navigation = () =>{
                     <li className='menu-item'>
                         <a className='sub-btn' href="#">Curation <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
-                            <li className='sub-item'><a href="#" target='_blank'>Curation 2024</a></li>
+                            <li className='sub-item'><a href="https://drive.google.com/drive/u/0/folders/1CMCbLF0cxqdvB86aw4E2l9GeXLD-KrRk" target='_blank'>Curation 2024</a></li>
                         </ul>
                     </li>
                     {/* <li className='menu-item'>
